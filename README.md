@@ -1,2 +1,1 @@
-android_htc_leo_local_xml
-=========================
+local_xml - files for HTC LEO ANDROID building
