@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+ <remote  name="gh"
+           fetch="https://github.com/" />
+
  <!-- Device Repos -->
-  <project path="device/htc/leo" name="walter79/android_device_htc_leo_testing" remote="github" revision="cm-11.0" />
+  <project path="device/htc/leo" name="walter79/android_device_htc_leo_testing" remote="gh" revision="cm-11.0" />
  
  <!-- Kernel Repos -->
-  <project path="kernel/htc/leo" name="walter79/android_kernel_htc_leo_2.6.35-mark1706-based" remote="github" revision="cm-11.0" />
+  <project path="kernel/htc/leo" name="walter79/android_kernel_htc_leo_2.6.35-mark1706-based" remote="gh" revision="cm-10.2" />
 
- <!-- WIFI BCM4329 
+ <!-- WIFI BCM4329
 
- <project path="hardware/broadcom/wlan" name="walter79/android_hardware_broadcom_wlan" remote="github" revision="cm-10.2-bcm4329" />
+<project path="hardware/broadcom/wlan" name="walter79/android_hardware_broadcom_wlan" remote="gh" revision="cm-10.2-bcm4329" />
 -->
 
  <!-- Toolchain -->
-  <project path="prebuilts/gcc/linux-x86/arm" name="walter79/toolchains" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm" name="walter79/toolchains" remote="gh" revision="master" />
   
 </manifest>
