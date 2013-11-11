@@ -18,7 +18,7 @@
   <project path="hardware/libhardware" name="walter79/android_hardware_libhardware" remote="gh" revision="cm-10.2" />
  -->
   <project path="hardware/qcom/audio-legacy" name="walter79/android_hardware_qcom_audio-legacy" remote="gh" revision="jellybean-4.3" />
-  <project path="hardware/qcom/display-legacy" name="evervolv/android_hardware_qcom_display-legacy" remote="gh" revision="kitkat" />
+  <project path="hardware/qcom/display-legacy" name="Evervolv/android_hardware_qcom_display-legacy" remote="gh" revision="kitkat" />
   <project path="hardware/qcom/gps-legacy" name="walter79/android_hardware_qcom_gps-legacy" remote="gh" revision="jellybean-4.3" />
   <project path="hardware/qcom/media-legacy" name="walter79/android_hardware_qcom_media-legacy" remote="gh" revision="jellybean-4.3" />
 
