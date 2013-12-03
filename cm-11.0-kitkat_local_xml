@@ -1,43 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <!-- CM removals 
-  <remove-project name="CyanogenMod/android_hardware_libhardware" />
---> 
+ <!-- CM removals -->
   <remove-project name="CyanogenMod/android_hardware_broadcom_wlan" />
-  <remove-project name="CyanogenMod/android_bionic" />
+  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
 
 
-  
- <!-- Device Repos -->
+
+<!-- Device Repos -->
   <project path="device/htc/leo" name="walter79/android_device_htc_leo_testing" remote="github" revision="cm-11.0" />
+
+
+
+ <!-- Kernel Repos  -->
+  <project path="kernel/htc/leo" name="walter79/android_kernel_htc_leo_2.6.35-mark1706-based" remote="github" revision="cm-10.2" />
+
+
+
+ <!-- Hardware Repos -->
+  <project path="hardware/qcom/display-legacy" name="walter79/android_hardware_qcom_display-legacy" remote="github" revision="kitkat" />
+  <project path="hardware/qcom/audio-legacy" name="Evervolv/android_hardware_qcom_audio-legacy" remote="github" revision="kitkat" />
+  <project path="hardware/qcom/gps-legacy" name="Evervolv/android_hardware_qcom_gps-legacy" remote="github" revision="kitkat" />
+  <project path="hardware/qcom/media-legacy" name="Evervolv/android_hardware_qcom_media-legacy" remote="github" revision="kitkat" />
+
+  <project path="hardware/libhardware" name="Evervolv/android_hardware_libhardware" remote="github" revision="kitkat" />
+  <project path="hardware/libhardware_legacy" name="Evervolv/android_hardware_libhardware_legacy" remote="github" revision="kitkat" />
+
+
+ <!-- Frameworks -->
+   <project path="frameworks/opt/telephony" name="walter79/android_frameworks_opt_telephony" remote="github" revision="cm-11.0"/>
+  
+
  
- <!-- Kernel Repos -->
-  <project path="kernel/htc/leo" name="walter79/android_kernel_htc_leo_2.6.35-mark1706-based" remote="github" revision="cm-11.0" />
-
- <!-- Hardware Repos
-  <project path="hardware/libhardware" name="walter79/android_hardware_libhardware" remote="github" revision="cm-10.2" />
- -->
-  <project path="hardware/qcom/audio-legacy" name="walter79/android_hardware_qcom_audio-legacy" remote="github" revision="jellybean-4.3" />
-  <project path="hardware/qcom/display-legacy" name="walter79/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.2" />
-  <project path="hardware/qcom/gps-legacy" name="walter79/android_hardware_qcom_gps-legacy" remote="github" revision="jellybean-4.3" />
-  <project path="hardware/qcom/media-legacy" name="walter79/android_hardware_qcom_media-legacy" remote="github" revision="jellybean-4.3" />
-  <project path="bionic" name="Quarx2k/android_bionic"  />
-
-  
  <!-- WIFI BCM4329 -->
-
- <project path="hardware/broadcom/wlan" name="walter79/android_hardware_broadcom_wlan" remote="github" revision="cm-10.2-bcm4329"  />
-
- <!-- Toolchain -->
-  <project path="prebuilts/gcc/linux-x86/arm" name="walter79/toolchains" remote="github" revision="master" />
-  
-
- <!-- not used yet 
-
- -->
+  <project path="hardware/broadcom/wlan" name="walter79/android_hardware_broadcom_wlan" remote="github" revision="cm-10.2-bcm4329"  />
 
 
+ <!-- Toolchain    -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="walter79/arm-eabi-4.4.3" remote="github" revision="master" />
 
+ <!-- not used yet -->
 
 </manifest>
