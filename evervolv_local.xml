@@ -2,20 +2,18 @@
 <manifest>
 
  <remote  name="gh"
-           fetch="https://github.com/" />
+           fetch="git://github.com/" />
 
- <!-- Device Repos -->
-  <project path="device/htc/leo" name="walter79/android_device_htc_leo_testing" remote="gh" revision="cm-11.0" />
- 
+<!-- Device Repos -->
+  <project path="device/htc/leo" name="walter79/android_device_htc_leo" remote="gh" revision="evervolv-4.4" />
+
  <!-- Kernel Repos -->
-  <project path="kernel/htc/leo" name="walter79/android_kernel_htc_leo_2.6.35-mark1706-based" remote="gh" revision="cm-10.2" />
+  <project path="kernel/htc/leo" name="walter79/android_kernel_htc_leo" remote="gh" revision="cm-11.0" />
 
- <!-- WIFI BCM4329
+ <!-- Hardware Repos -->
+  <project path="hardware/qcom/display-legacy" name="walter79/android_hardware_qcom_display-legacy" remote="gh" revision="kitkat" />
+  <project path="hardware/qcom/audio-legacy" name="Evervolv/android_hardware_qcom_audio-legacy" remote="gh" revision="kitkat" />
+  <project path="hardware/qcom/gps-legacy" name="Evervolv/android_hardware_qcom_gps-legacy" remote="gh" revision="kitkat" />
+  <project path="hardware/qcom/media-legacy" name="Evervolv/android_hardware_qcom_media-legacy" remote="gh" revision="kitkat" />
 
-<project path="hardware/broadcom/wlan" name="walter79/android_hardware_broadcom_wlan" remote="gh" revision="cm-10.2-bcm4329" />
--->
-
- <!-- Toolchain -->
-  <project path="prebuilts/gcc/linux-x86/arm" name="walter79/toolchains" remote="gh" revision="master" />
-  
 </manifest>
