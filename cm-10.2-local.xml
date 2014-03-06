@@ -9,7 +9,7 @@
   <project path="device/htc/leo" name="walter79/android_device_htc_leo_testing" remote="github" revision="cm-10.2-bcmdhd" />
  
  <!-- Kernel Repos -->
-  <project path="kernel/htc/leo" name="walter79/android_kernel_htc_leo_2.6.35-mark1706-based" remote="github" revision="cm-10.2" />
+  <project path="kernel/htc/leo" name="walter79/android_kernel_htc_leo_2.6.35" remote="github" revision="cm-10.2" />
 
  <!-- Framework Repos -->
 
