@@ -11,7 +11,7 @@
 
 
 <!-- Device Repos -->
-  <project path="device/htc/leo" name="walter79/android_device_htc_leo_testing" remote="github" revision="cm-10.2-bcmdhd-old-gps" />
+  <project path="device/htc/leo" name="walter79/android_device_htc_leo" remote="github" revision="cm-10.2-bcmdhd-old-gps" />
 
 
 
