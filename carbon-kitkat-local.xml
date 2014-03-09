@@ -12,7 +12,7 @@
   <project path="device/htc/leo" name="walter79/android_device_htc_leo_testing" remote="gh" revision="cm-10.2" />
  
  <!-- Kernel Repos -->
-  <project path="kernel/htc/leo" name="walter79/android_kernel_htc_leo_2.6.35-mark1706-based" remote="gh" revision="cm-10.2" />
+  <project path="kernel/htc/leo" name="walter79/android_kernel_htc_leo_2.6.35" remote="gh" revision="cm-10.2" />
 
  <!-- Hardware Repos
   <project path="hardware/libhardware" name="walter79/android_hardware_libhardware" remote="gh" revision="cm-10.2" />
