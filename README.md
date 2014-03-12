@@ -5,3 +5,6 @@ for Android 4.4 read this commit: https://github.com/walter79/android_hardware_l
 Fix for RIL:
 
 https://github.com/walter79/omnirom_android_frameworks_opt_telephony/commit/1c4514af8744d105bd769addd400d174853b3102
+
+
+!! Please check that android_frameworks_opt_telephony is synced with latest original source !!!
