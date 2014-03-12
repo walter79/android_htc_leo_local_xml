@@ -15,7 +15,7 @@
 
  <!-- Framework Repos -->
 
-  <project path="frameworks/opt/telephony" name="walter79/android_frameworks_opt_telephony" remote="github" revision="cm-10.2" />
+  <project path="frameworks/opt/telephony" name="walter79/cm_android_frameworks_opt_telephony" remote="github" revision="cm-10.2" />
 
  <!-- Hardware Repos -->
   <project path="hardware/libhardware" name="walter79/android_hardware_libhardware" remote="github" revision="cm-10.2" />

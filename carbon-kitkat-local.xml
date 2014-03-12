@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <!-- CM removals
-<remove-project name="CyanogenMod/android_hardware_libhardware" />
--->
+ <!-- CM removals -->
   <remove-project name="CyanogenMod/android_hardware_broadcom_wlan" />
 
-
-  
  <!-- Device Repos -->
-  <project path="device/htc/leo" name="walter79/android_device_htc_leo_testing" remote="gh" revision="carbon-4.4" />
+  <project path="device/htc/leo" name="walter79/android_device_htc_leo" remote="gh" revision="carbon-4.4" />
  
  <!-- Kernel Repos -->
   <project path="kernel/htc/leo" name="walter79/android_kernel_htc_leo_2.6.35" remote="gh" revision="cm-10.2" />
@@ -31,12 +27,7 @@
   <project path="prebuilts/gcc/linux-x86/arm" name="walter79/toolchains" remote="gh" revision="master" />
   
 
- <!-- not used yet
+ <!-- not used yet -->
 
--->
-
-
-
-
-</manifest>" />
+</manifest>
  
