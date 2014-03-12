@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- CM removals -->
+  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
+
+ <!-- Device Repos -->
+  <project path="device/htc/leo" name="walter79/android_device_htc_leo" remote="github" revision="cm-11.0-kitkat-ion" />
+
+ <!-- Kernel Repos  -->
+  <project path="kernel/htc/leo" name="walter79/android_kernel_htc_leo" remote="github" revision="3.0.x-ION" /> 
+
+ <!-- Hardware Repos -->
+  <project path="hardware/qcom/display-legacy" name="walter79/android_hardware_qcom_display-legacy" remote="github" revision="kitkat" />
+  <project path="hardware/qcom/audio-legacy" name="Evervolv/android_hardware_qcom_audio-legacy" remote="github" revision="kitkat" />
+  <project path="hardware/qcom/gps-legacy" name="Evervolv/android_hardware_qcom_gps-legacy" remote="github" revision="kitkat" />
+  <project path="hardware/qcom/media-legacy" name="Evervolv/android_hardware_qcom_media-legacy" remote="github" revision="kitkat" />
+
+ <!-- Frameworks -->
+   <project path="frameworks/opt/telephony" name="walter79/cm_android_frameworks_opt_telephony" remote="github" revision="cm-11.0"/>
+
+  <!-- Toolchain  -->  
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="walter79/arm-eabi-4.4.3" remote="github" revision="master" />
+
+ <!-- not used yet -->
+
+</manifest>
