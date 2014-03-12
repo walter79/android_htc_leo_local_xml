@@ -8,3 +8,7 @@ https://github.com/walter79/omnirom_android_frameworks_opt_telephony/commit/1c45
 
 
 !! Please check that android_frameworks_opt_telephony is synced with latest original source !!!
+
+Fix for set metadata in updater script
+
+https://github.com/walter79/leo_cm11_patches
