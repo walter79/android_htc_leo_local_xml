@@ -12,7 +12,7 @@
   -->
  <!-- Kernel Repos  2.6.35  -->
  
-  <project path="kernel/htc/leo" name="walter79/android_kernel_htc_leo_2.6.35-mark1706-based" remote="gh" revision="cm-10.2" />
+  <project path="kernel/htc/leo" name="walter79/android_kernel_htc_leo_2.6.35" remote="gh" revision="cm-10.2" />
 
  <!-- Hardware Repos -->
   <project path="hardware/qcom/display-legacy" name="walter79/android_hardware_qcom_display-legacy" remote="gh" revision="kitkat" />
